@@ -1,3 +1,3 @@
-document.getElementById("alertButton").addEventListener("click", function() {
-    alert("Você será redirecionado para a página de compra!");
-});
+document.getElementById('alertButton').onclick = function() {
+    alert("Você clicou no botão!");
+};
